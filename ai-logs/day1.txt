@@ -1,32 +1,71 @@
-Day 1 - Project Initialization
+Day 1 - AI Prompt and Response Log
 
-Goal:
-Build an AI-powered calorie tracking app that analyzes food images and returns nutritional data.
+Prompt
 
-Decisions Made:
-- Chose Flutter for frontend (simple UI development)
-- Chose Firebase for backend (fast setup)
-- Plan to use OpenAI Vision API for food recognition
+I want to build an AI-powered calorie tracking mobile app similar to Cal AI. Can you explain the overall architecture and how different components should interact?
 
-AI Usage:
-- Asked ChatGPT for project architecture
-- Got step-by-step roadmap for building MVP
-- Decided to build in phases instead of full app at once
+Response
 
-Progress:
-- Created GitHub repository
-- Set up ai-logs folder
-- Defined core features:
-  - Image capture
-  - AI food detection
-  - Macro tracking
-  - Daily diary
+The assistant explained the architecture consisting of a mobile frontend (Flutter), a backend service (Firebase), and an AI API for image recognition. It described the flow: user captures image → image sent to AI → AI returns food details → app displays calories and stores data.
 
-Challenges:
-- Not sure how accurate AI calorie estimation will be
-- Need to learn image upload + API integration
+---
 
-Next Steps:
-- Setup Flutter project
-- Design UI screens (Home, Add Meal)
-- Integrate camera feature
+Prompt
+
+How should I design the user flow to make the app simple and user-friendly?
+
+Response
+
+The assistant suggested a minimal flow: Home screen → Add Meal → Capture Image → AI Processing → Result Display → Save to Diary. It emphasized reducing steps and making navigation intuitive.
+
+---
+
+Prompt
+
+What are the core features I should prioritize for an MVP version?
+
+Response
+
+The assistant recommended focusing on image capture, AI-based food recognition, calorie and macro display, and a simple daily food diary. Advanced features like charts and streaks can be added later.
+
+---
+
+Prompt
+
+How can I design the UI to look modern and professional like top mobile apps?
+
+Response
+
+The assistant suggested using a clean layout, consistent color palette, rounded cards, proper spacing, and a prominent calorie tracking section. It also recommended adding visual elements like progress indicators and icons.
+
+---
+
+Prompt
+
+What challenges might I face while integrating AI for food recognition?
+
+Response
+
+The assistant explained possible issues such as inaccurate predictions, slow API responses, and difficulty parsing structured data. It suggested handling errors gracefully and showing loading indicators.
+
+---
+
+Prompt
+
+How should I structure my project folders for scalability and clean code?
+
+Response
+
+The assistant recommended organizing code into folders like screens, widgets, services, and utils. This helps maintain clean architecture and makes the project easier to extend.
+
+---
+
+Prompt
+
+What are best practices for writing clean and professional commit messages?
+
+Response
+
+The assistant suggested using prefixes like feat, fix, docs, and style, followed by a clear description. It also recommended writing detailed commit descriptions explaining the purpose of changes.
+
+---
