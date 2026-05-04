@@ -1,0 +1,32 @@
+Day 1 - Project Initialization
+
+Goal:
+Build an AI-powered calorie tracking app that analyzes food images and returns nutritional data.
+
+Decisions Made:
+- Chose Flutter for frontend (simple UI development)
+- Chose Firebase for backend (fast setup)
+- Plan to use OpenAI Vision API for food recognition
+
+AI Usage:
+- Asked ChatGPT for project architecture
+- Got step-by-step roadmap for building MVP
+- Decided to build in phases instead of full app at once
+
+Progress:
+- Created GitHub repository
+- Set up ai-logs folder
+- Defined core features:
+  - Image capture
+  - AI food detection
+  - Macro tracking
+  - Daily diary
+
+Challenges:
+- Not sure how accurate AI calorie estimation will be
+- Need to learn image upload + API integration
+
+Next Steps:
+- Setup Flutter project
+- Design UI screens (Home, Add Meal)
+- Integrate camera feature
